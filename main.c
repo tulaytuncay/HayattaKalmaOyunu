@@ -55,7 +55,7 @@ int main() {
                 } else if (chanceA < 75) {
                     // Oyuncu %25 ihtimalle yaralandı demektir
                     health = health - 15;
-                    printf("Av sirasinda yaralandiniz! Saglik -20\n");
+                    printf("Av sirasinda yaralandiniz! Saglik -15\n");
                 } else {
                     //Oyuncu %25 ihtimalle eli boş dönecek demektir
                     printf("Aradiniz ama bir av bulamadiniz.\n");
